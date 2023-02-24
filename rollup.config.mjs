@@ -1,4 +1,4 @@
-import string from "rollup-plugin-string";
+import { string } from "rollup-plugin-string";
 
 export default [
   {
@@ -8,18 +8,18 @@ export default [
       {
         file: "stanagapp6.js",
         format: "umd",
-        name: "stanagapp6"
+        name: "stanagapp6",
       },
       {
         file: "stanagapp6.esm.js",
-        format: "es"
-      }
+        format: "es",
+      },
     ],
     plugins: [
       string({
         // Required to be specified
-        include: "**/*.tsv"
-      })
-    ]
-  }
+        include: "**/*.tsv",
+      }),
+    ],
+  },
 ];
