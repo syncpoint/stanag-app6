@@ -2,9 +2,17 @@
 
 This repository contains the following standards for easy reuse in other projects.
 
-* APP-6 B
+- APP-6 B
 
-* APP-6 D
+- APP-6 D
+
+## Usage
+
+`npm install stanag-app6`
+
+Then you can simply:
+
+`import { app6b,app6d } from "mil-std-2525";`
 
 ## License
 
