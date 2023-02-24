@@ -12,7 +12,7 @@ This repository contains the following standards for easy reuse in other project
 
 Then you can simply:
 
-`import { app6b,app6d } from "mil-std-2525";`
+`import { app6b,app6d } from "stanag-app6";`
 
 ## License
 
